@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "manifest_version": 3,
+    "name": "Teefers",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.tfrrs.org/athletes/*"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "jquery-3.6.4.js",
+                "event_history.js"
+            ]
+        }
+    ]
+}
